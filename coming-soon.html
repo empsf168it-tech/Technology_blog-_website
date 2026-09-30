@@ -76,7 +76,7 @@
             <!-- Waitlist Form -->
             <div class="mx-auto" style="max-width: 500px;">
                 <form onsubmit="event.preventDefault(); showToast('You are on the VIP Summit Early-Bird list! 🎟️'); this.reset();" class="d-flex flex-column flex-sm-row gap-2">
-                    <input type="email" class="form-control form-control-lg rounded-pill bg-card border text-light px-4" placeholder="Enter your work email..." required>
+                    <input type="email" class="form-control form-control-lg rounded-pill bg-card border px-4" placeholder="Enter your work email..." required>
                     <button type="submit" class="btn-tech-primary text-nowrap">Reserve VIP Pass</button>
                 </form>
                 <p class="small text-muted mt-2 mb-0"><i class="bi bi-shield-check me-1"></i> Complimentary virtual access for engineers & students.</p>
@@ -139,6 +139,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+        <i class="bi bi-chevron-up"></i>
+    </button>
 
     <!-- Bootstrap & JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
